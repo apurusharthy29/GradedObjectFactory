@@ -12,6 +12,16 @@ public class AnayaSpecialCar {
     }
 
     public void printInfo(){
-        System.out.println();
+        System.out.println("The Anaya Special car's model is: " + carModel);
+        System.out.println("The Anaya Special car's horsepower is: " + horsepower);
+        System.out.println("It is " + isFast + " that Anaya Special Car is fast");
     }
+
+    public void HorsepowerMultiplier(int pMultiplyBy){
+        horsepower = horsepower * pMultiplyBy;
+    }
+    public void makeFast(){
+        isFast = !isFast;
+    }
+
 }
