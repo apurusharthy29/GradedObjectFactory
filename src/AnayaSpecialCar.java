@@ -19,9 +19,9 @@ public class AnayaSpecialCar {
 
     public void HorsepowerMultiplier(int pMultiplyBy){
         horsepower = horsepower * pMultiplyBy;
-    }
+    } //Multiplies whatever is assignedin parameter
     public void makeFast(){
         isFast = !isFast;
-    }
+    }//Does opposite of whatever I assign it
 
 }
